@@ -1,0 +1,50 @@
+
+footer{
+  background-color: #333;
+  color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.down-button{
+  position: absolute;
+  bottom: 15rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.down-button i {
+  color: white;
+}
+
+.activity-section{
+  margin: 2rem;
+}
+
+.activity-element{
+  text-align: center;
+}
+
+.activity-element img{
+  width: 15rem;
+  height: 15rem;  
+  border-radius: 50%;
+}
+
+.slideImg img{
+  width: 100%;
+  height: auto;
+}
+
+.activity-topic{
+  font-weight: 900;
+  font-family: sans-serif;
+  color: #669900;
+}
+
+.activity-quote{
+  color: #f95e03;
+  font-weight: 600;
+  font-style: italic;
+}

@@ -1,0 +1,29 @@
+
+.feature-holder{
+    color: white;
+    margin: 2rem;
+}
+.welcome_Header{
+    font-weight: 800;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding-left: 17rem;
+    font-family: cursive;
+    color: #333333;
+}
+
+.feature{
+    margin-top: 5%;
+    color: white;
+}
+
+.feature_header{
+    font-weight: 800;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.feature_point{
+    font-size: 1.8rem;
+    font-family: cursive;
+}

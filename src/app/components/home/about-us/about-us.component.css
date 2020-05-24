@@ -1,0 +1,83 @@
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #101010;
+    color: white;
+    text-align: center;
+}
+
+
+.member-info-holder{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+
+.member-info-holder img{
+    width: 24rem;
+    height: auto;  
+    border-radius: 50%;
+}
+
+.memeber-name{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.member-position{
+    color: #a7f307;
+}
+
+.member-details{
+    text-align: justify;
+    font-style: italic;
+}
+
+.instragramIcon{
+    color: #ea5318;
+}
+
+.facebookIcon{
+    color: #3b5998;
+}
+
+.whatsappIcon{
+    color: #4FCE5D;
+}
+
+.member-info-icon{
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    font-weight: 900;
+}
+
+.about-us-Holder{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.about-us-header{
+    font-weight: 800;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.about-us-content{
+    margin-top: 2rem;
+    text-align: justify;
+    font-style: italic;
+    color: white;
+}
+
+.about-us-Holder img, .info-user-holder img{
+    width: 24rem;
+    height: 24rem;  
+    border-radius: 50%;
+}
+
+.info-user-holder{
+    margin-top: 4rem;
+}

@@ -1,0 +1,123 @@
+<nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header navbar-holder">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a  class="brand-name homeLink" routerLink="">
+            <div  class="logo-header">
+                <span style="color: white;">Travelling</span>
+                <span style="color: #669900;">World</span>
+            </div>
+            <div class="logo-slogan">All About Bucket List</div>
+        </a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="header-link"><a href={{instragramUrl}} target="_blank"><i class="fa fa-instagram instragramIcon"></i></a></li>
+            <li class="header-link"><a href={{facebookUrl}} target="_blank"><i class="fa fa-facebook facebookIcon"></i></a></li>
+            <li class="header-link"><a href={{whatsappUrl}} target="_blank"><i class="fa fa-whatsapp whatsappIcon"></i></a></li>
+            <li class="header-link"><a routerLink="/login"><i class="fa fa-lock lockIcon"></i><label>Login</label></a></li>
+            <li class="header-link"><a routerLink="/signUp"><i class="fa fa-user userIcon"></i><label>SignUp</label></a></li>
+            <li class="header-link dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><label>Information</label> <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a routerLink="/aboutUs">About Us</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a routerLink="/contactUs">Contact Us</a></li>
+                </ul>
+            </li>
+        </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"aria-hidden="true">
+    <div class="modal-dialog form-dark modal-md" role="document">
+        <!--Content-->
+        <div class="modal-content card-image container-fluid">
+            <div class="row">
+                <!--Header-->
+                <div class="modal-header row col-sm-12">
+                    <span class="col-sm-1"></span>
+                    <span class="login-title col-sm-10">
+                        <strong>SIGN</strong> 
+                        <span><strong> IN</strong></span>
+                    </span>
+                    <button type="button" class="close close-btn col-sm-1" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!--Body-->
+                <div class="row col-sm-12">
+                    <div class="col-sm-2"></div>
+                    <div class="modal-body col-sm-9">
+                                          
+                        <div class="col-sm-12 row">
+                            <p class="sign-up-text">New user? 
+                                <a href="#" style="color:  #669900;">Sign Up</a>
+                            </p>
+                        </div>
+                        <div class="footer col-sm-12 row">
+                            <div>
+                                <i class="fa fa-copyright"></i>
+                                <span>2020-21 All CopyRight reservered to Saudagar</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Signup Modal -->
+<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"aria-hidden="true">
+    <div class="modal-dialog form-dark modal-md" role="document">
+        <!--Content-->
+        <div class="modal-content card-image container-fluid">
+            <div class="row">
+                <!--Header-->
+                <div class="modal-header row col-sm-12">
+                    <span class="col-sm-1"></span>
+                    <span class="signup-title col-sm-10">
+                        <strong>SIGN</strong> 
+                        <span><strong> UP</strong></span>
+                    </span>
+                    <button type="button" class="close close-btn col-sm-1" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!--Body-->
+                <div class="row col-sm-12">
+                    <div class="col-sm-2"></div>
+                    <div class="modal-body col-sm-9">
+                        
+                        <div class="col-sm-12 row">
+                            <p class="login-text">New user? 
+                                <a (click)="openLoginForm()" style="color:  #669900;">Sign Up</a>
+                            </p>
+                        </div>
+                        <div class="footer col-sm-12 row">
+                            <div>
+                                <i class="fa fa-copyright"></i>
+                                <span>2020-21 All CopyRight reservered to Saudagar</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,113 @@
+
+.navbar{
+    margin-bottom: 0;
+    padding: 0.5rem 0;
+}
+  
+.logo-header{
+  font-family: sans-serif;
+  top: 3.5rem;
+  font-size: 2rem;
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+.fill-screen{
+  background-image: url("../../../../assets/Image/Article/8.jpg");
+}
+.homeLink{
+  text-decoration-color: orange;
+}
+
+.logo-slogan{
+  font-family: monospace;
+  color: white;
+}
+
+.social-contact{
+    padding-top: 1rem;
+}
+
+.header-link{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+label{
+    font-size: 1.4rem;
+    padding-left: 0.5rem;
+    color: white;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.instragramIcon{
+    color: #ea5318;
+}
+.facebookIcon{
+    color: #3b5998;
+}
+.whatsappIcon{
+    color: #4FCE5D;
+}
+.lockIcon{
+    color: #669900;
+}
+.userIcon{
+    color: #669900;
+}
+
+/* login Modal Start*/
+
+.modal-header {
+    border-bottom: none;
+    text-align: center;
+}
+
+.card-image{
+  background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(7).jpg');
+  background-size: cover;
+}
+
+.login-title{
+  font-size: 2.5rem;
+  padding-bottom: 3rem;
+  color: #669900;
+}
+
+.sign-up-text{
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 7rem;
+  color: black;
+  margin-bottom: 10rem;
+}
+
+.close-btn{
+  font-size: 2.5rem;
+  color: red;
+  padding-right: 1rem;
+}
+
+.footer{
+    color: black ;
+    background-color: white;
+    text-align: center;
+    border-radius: 5rem;
+}
+/* login Modal End*/
+
+/* Signup Modal Start*/
+
+.signup-title{
+    font-size: 2.5rem;
+    color: #669900;
+}
+
+.login-text{
+    font-size: 1.2em;
+    text-align: center;
+    color: black;
+    margin-bottom: 8rem;
+}
+/* Signup Modal End*/
