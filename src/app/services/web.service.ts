@@ -19,6 +19,6 @@ export class WebService {
 
   loginUser(userData){
     let body = JSON.stringify(userData);
-    return this.http.post('/api/v2/user/login', body, httpOption);
+    return this.http.post('/server/api/v2/user/login', body, httpOption);
   }
 }
