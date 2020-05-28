@@ -18,7 +18,9 @@ import { HomePageHeaderComponent } from './components/home/home-page-header/home
 import { HomePageFooterComponent } from './components/home/home-page-footer/home-page-footer.component';
 import { HomePageContentComponent } from './components/home/home-page-content/home-page-content.component';
 import { AboutUsComponent } from './components/home/about-us/about-us.component';
-import { ContactUsComponent } from './components/home/contact-us/contact-us.component';
+import { HikingComponent } from './components/activity/hiking/hiking.component';
+import { FoodTourComponent } from './components/activity/food-tour/food-tour.component';
+import { SunsetViewComponent } from './components/activity/sunset-view/sunset-view.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { ContactUsComponent } from './components/home/contact-us/contact-us.comp
     HomePageFooterComponent,
     HomePageContentComponent,
     AboutUsComponent,
-    ContactUsComponent
+    HikingComponent,
+    FoodTourComponent,
+    SunsetViewComponent
   ],
   imports: [
     BrowserModule,

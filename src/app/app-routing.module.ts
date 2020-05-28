@@ -4,7 +4,9 @@ import { SignUpComponent } from './components/user/sign-up/sign-up.component';
 import { LoginComponent } from './components/user/login/login.component';
 import { HomePageComponent } from './components/home/home-page/home-page.component';
 import { AboutUsComponent } from './components/home/about-us/about-us.component';
-import { ContactUsComponent } from './components/home/contact-us/contact-us.component';
+import { HikingComponent } from './components/activity/hiking/hiking.component';
+import { FoodTourComponent } from './components/activity/food-tour/food-tour.component';
+import { SunsetViewComponent } from './components/activity/sunset-view/sunset-view.component';
 
 const routes: Routes = [
 {
@@ -20,8 +22,14 @@ const routes: Routes = [
   path:'aboutUs',
   component:AboutUsComponent
 },{
-  path:'contactUs',
-  component:ContactUsComponent
+  path:'hiking',
+  component:HikingComponent
+},{
+  path:'foodTour',
+  component:FoodTourComponent
+},{
+  path:'sunsetView',
+  component:SunsetViewComponent
 }
 ];
 
