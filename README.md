@@ -40,3 +40,9 @@ npm install @fortawesome/fontawesome-svg-core
 npm install --save font-awesome angular-font-awesome
 
 npm install --save font-awesome
+
+npm install angular-card
+
+npm install --save card
+
+npm install --save ng-payment-card
