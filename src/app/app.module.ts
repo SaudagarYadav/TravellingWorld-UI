@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';  
 import { NgwWowModule } from 'ngx-wow';
+import { NgPaymentCardModule } from 'ng-payment-card';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -44,7 +45,8 @@ import { SunsetViewComponent } from './components/activity/sunset-view/sunset-vi
     AppRoutingModule, 
     FormsModule,
     AngularFontAwesomeModule,
-    NgwWowModule
+    NgwWowModule,
+    NgPaymentCardModule
   ],
   providers: [WebService, ValidationService],
   bootstrap: [AppComponent]
