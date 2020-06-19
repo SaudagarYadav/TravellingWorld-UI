@@ -1,7 +1,8 @@
 
 .navbar{
     margin-bottom: 0;
-    padding: 0.5rem 0;
+    padding-top: 0.7rem;
+    background-color: darkslategrey;
 }
   
 .logo-header{
@@ -15,9 +16,6 @@
 
 .fill-screen{
   background-image: url("../../../../assets/Image/Article/8.jpg");
-}
-.homeLink{
-  text-decoration-color: orange;
 }
 
 .logo-slogan{
@@ -41,20 +39,45 @@ label{
     cursor: pointer;
     vertical-align: middle;
 }
-.instragramIcon{
-    color: #ea5318;
+.icon{
+    color: white;
+    font-size: 2rem;
+    vertical-align: top;
 }
-.facebookIcon{
-    color: #3b5998;
+
+.instagramHolder {
+  border: 1px solid #ea5318;
+  padding: 0 1rem 0 1rem;
+  background-color: #ea5318;
+  border-radius: 1rem;
 }
-.whatsappIcon{
-    color: #4FCE5D;
+
+.facebookHolder{
+  border: 1px solid #3b5998;
+  padding: 0 1rem 0 1rem;
+  background-color: #3b5998;
+  border-radius: 1rem;
 }
-.lockIcon{
-    color: #669900;
+
+.whatsappHolder{
+  border: 1px solid #4FCE5D;
+  padding: 0 1rem 0 1rem;
+  background-color: #4FCE5D;
+  border-radius: 1rem;
 }
-.userIcon{
-    color: #669900;
+
+.loginHolder{
+  border: 1px solid #3b39ad;
+  padding: 0 1rem 0 1rem;
+  background-color: #3b39ad;
+  border-radius: 1rem;
+}
+
+.signupHolder{
+  border: 1px solid #669900;
+  padding: 0 1rem 0 1rem;
+  background-color: #669900;
+  border-radius: 1rem;
 }
 
 /* login Modal Start*/

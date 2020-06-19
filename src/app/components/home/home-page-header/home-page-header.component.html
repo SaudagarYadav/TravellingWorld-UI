@@ -20,11 +20,46 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-            <li class="header-link"><a href={{instragramUrl}} target="_blank"><i class="fa fa-instagram instragramIcon"></i></a></li>
-            <li class="header-link"><a href={{facebookUrl}} target="_blank"><i class="fa fa-facebook facebookIcon"></i></a></li>
-            <li class="header-link"><a href={{whatsappUrl}} target="_blank"><i class="fa fa-whatsapp whatsappIcon"></i></a></li>
-            <li class="header-link"><a routerLink="/login"><i class="fa fa-lock lockIcon"></i><label>Login</label></a></li>
-            <li class="header-link"><a routerLink="/signUp"><i class="fa fa-user userIcon"></i><label>SignUp</label></a></li>
+            <li class="header-link">
+                <a href={{instragramUrl}} target="_blank">
+                    <span class="instagramHolder">
+                        <i class="fa fa-instagram icon"></i>
+                        <label>Instgram</label>
+                    </span>
+                </a>
+            </li>
+            <li class="header-link">
+                <a href={{facebookUrl}} target="_blank">
+                    <span class="facebookHolder">
+                        <i class="fa fa-facebook icon"></i>
+                        <label>Facbook</label>
+                    </span>
+                </a>
+            </li>
+            <li class="header-link">
+                <a href={{whatsappUrl}} target="_blank">
+                    <span class="whatsappHolder">
+                        <i class="fa fa-whatsapp icon"></i>
+                        <label>Whatsapp</label>
+                    </span>
+                </a>
+            </li>
+            <li class="header-link">
+                <a routerLink="/login">
+                    <span class="loginHolder">
+                        <i class="fa fa-lock icon"></i>
+                        <label>Login</label>
+                    </span>
+                </a>
+            </li>
+            <li class="header-link">
+                <a routerLink="/signUp">
+                    <span class="signupHolder">
+                        <i class="fa fa-user icon"></i>
+                        <label>SignUp</label>
+                    </span>
+                </a>
+            </li>
             <li class="header-link dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><label>Information</label> <span class="caret"></span></a>
                 <ul class="dropdown-menu">
