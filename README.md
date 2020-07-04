@@ -27,6 +27,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Run this command before using this project: 
+npm install
+
 npm install bootstrap@3.3.7
 
 npm install jquery@2.1.1 --save
